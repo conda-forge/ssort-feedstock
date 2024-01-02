@@ -1,5 +1,5 @@
 {% set name = "ssort" %}
-{% set version = "0.11.6" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ssort-{{ version }}.tar.gz
-  sha256: 21fec493487f32dff50d30efa5b6aad18286e9817600b64bfe686ae062bae7ae
+  sha256: 9785088981a7a8bd4979f76085d6abd6c3991c61665bd5d27da209626d0c1d69
 
 build:
   entry_points:
