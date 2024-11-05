@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ssort-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ssort-{{ version }}.tar.gz
   sha256: 4ab15d04d94012158f2eac43478f61e08befb53809c78324921dcf872d7172ef
 
 build:
